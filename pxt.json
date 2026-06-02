@@ -1,0 +1,31 @@
+{
+    "name": "pro max",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "BlockyTalky-BLE": "github:laboratoryforplayfulcomputation/pxt-blockytalkyble#v0.0.21",
+        "bluetooth-max6675": "github:microsoft/pxt-bluetooth-max6675#v0.0.8",
+        "CooCoo": "github:alsrobot-microbit-makecode-packages/coocoo#1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.51",
+        "tag": "v7.0.51",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3819f016bd720d0eb86efea9a84dcd4fc7b2e1f",
+        "target": "8.0.22",
+        "pxt": "11.1.5",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
