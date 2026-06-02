@@ -6,7 +6,10 @@
         "microphone": "*",
         "BlockyTalky-BLE": "github:laboratoryforplayfulcomputation/pxt-blockytalkyble#v0.0.21",
         "bluetooth-max6675": "github:microsoft/pxt-bluetooth-max6675#v0.0.8",
-        "CooCoo": "github:alsrobot-microbit-makecode-packages/coocoo#1.1.0"
+        "CooCoo": "github:alsrobot-microbit-makecode-packages/coocoo#1.1.0",
+        "touchbit": "github:pimoroni/pxt-touchbit#v0.0.1",
+        "coderdojo-controller": "github:jimd80/pxt-coderdojo-controller#v1.0.5",
+        "display-shield": "github:microbit-apps/display-shield#v1.1.4"
     },
     "files": [
         "main.blocks",

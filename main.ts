@@ -1,9 +1,10 @@
 let temp = 0
 let light2 = 0
-input.onButtonPressed(Button.A, function () {
+bluetooth.onBluetoothConnected(function () {
     temp = input.temperature()
     light2 = input.lightLevel()
     basic.showNumber(light2)
+    screen().fillRect(0, 0, 79, 59, 1)
     basic.pause(100)
     basic.showNumber(temp)
     if (temp > 40 || light2 > 150) {
@@ -15,4 +16,7 @@ input.onButtonPressed(Button.A, function () {
     } else {
         basic.showIcon(IconNames.No)
     }
+})
+input.onButtonPressed(Button.A, function () {
+	
 })
